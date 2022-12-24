@@ -1,7 +1,7 @@
 const request = require('supertest');
 const { validate } = require('uuid');
 
-const app = require('../');
+const app = require('..');
 
 describe('Todos', () => {
   it("should be able to list all user's todo", async () => {
